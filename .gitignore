@@ -1,0 +1,12 @@
+*.key
+*.pem
+*.cert
+*credentials*
+*password*
+*.log
+*.db
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp

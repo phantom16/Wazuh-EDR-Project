@@ -1,0 +1,10 @@
+<!-- Wazuh Active Response Configuration -->
+<ossec_config>
+  <active-response>
+    <disabled>no</disabled>
+    <command>firewall-drop</command>
+    <location>local</location>
+    <rules_id>2502,5710,5711,5712</rules_id>
+    <timeout>3600</timeout>
+  </active-response>
+</ossec_config>
